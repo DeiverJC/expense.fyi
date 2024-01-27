@@ -25,17 +25,17 @@ const messages = {
 };
 
 export const emails = {
-	email: 'hello@expense.fyi',
+	email: 'hello@gastos.site',
 	feedback: {
 		subject: '🎉 New Feedback Received',
 		sent: 'Feedback received.',
 		failed: 'Failed to send, please try again.',
 	},
 	account: {
-		deleted: 'Your Expense.fyi account is Deleted!',
+		deleted: 'Your gastos.site account is Deleted!',
 	},
 	welcome: {
-		subject: '✨ Welcome to Expense.fyi',
+		subject: '✨ Welcome to gastos.site',
 	},
 	usageLimit: {
 		premiumExpired: {
@@ -52,9 +52,9 @@ export const emails = {
 		},
 	},
 	sent: 'We just sent an email with magic link, check your inbox.',
-	from: 'Gokul from Expense.fyi <hello@expense.fyi>',
-	signin: { subject: 'Sign in link for Expense.fyi' },
-	signup: { subject: 'Sign up link for Expense.fyi' },
+	from: 'Gastos from gastos.site <hello@gastos.site>',
+	signin: { subject: 'Sign in link for gastos.site' },
+	signup: { subject: 'Sign up link for gastos.site' },
 };
 
 export default messages;
