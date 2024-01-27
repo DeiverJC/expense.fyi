@@ -17,7 +17,7 @@ import {
 import Footer from './footer';
 import Footnote from './footnote';
 
-const baseUrl = 'https://expense.fyi';
+const baseUrl = 'https://gastos.site';
 const appUrl = 'https://app.expense.fyi';
 const githubUrl = 'https://github.com/gokulkrishh/expense.fyi';
 const twitterUrl = 'https://twitter.com/gokul_i';

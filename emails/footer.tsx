@@ -1,6 +1,6 @@
 import { Hr, Link, Text } from '@react-email/components';
 
-const baseUrl = 'https://expense.fyi';
+const baseUrl = 'https://gastos.site';
 
 export default function Footer() {
 	return (

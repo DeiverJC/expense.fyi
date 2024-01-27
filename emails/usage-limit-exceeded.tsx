@@ -17,7 +17,7 @@ import {
 import Footer from './footer';
 import Footnote from './footnote';
 
-const baseUrl = 'https://expense.fyi';
+const baseUrl = 'https://gastos.site';
 const settingUrl = 'https://app.expense.fyi/settings';
 
 type UsageProps = {
