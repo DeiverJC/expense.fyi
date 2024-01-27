@@ -84,7 +84,7 @@ export default function Home() {
 				<div className="mx-auto mb-16 mt-16 max-w-md px-3 text-center sm:max-w-lg sm:px-0">
 					<h2 className="mt-4 text-3xl font-extrabold tracking-[-0.03em] text-black sm:text-4xl">
 						<span className="bg-gradient-to-r from-amber-400 to-orange-600 bg-clip-text text-transparent">
-							Why to use
+							¿Por qué usar
 						</span>{' '}
 						Gastos.site?
 					</h2>
