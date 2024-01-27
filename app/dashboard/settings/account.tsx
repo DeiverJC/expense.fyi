@@ -25,6 +25,7 @@ const currencyData = Object.keys(data)
 
 export default function Account() {
 	const user = useUser();
+	console.log(user);
 	const currency = `${user.currency}-${user.locale}`;
 
 	return (
