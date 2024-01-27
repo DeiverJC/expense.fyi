@@ -1,4 +1,4 @@
-<a href="https://expense.fyi">
+<a href="https://gastos.site">
 <p align="center"><img alt="Expense.fyi – An open source expense tracker application to track your incomes, investments, subscriptions, and expenses at ease." width="100" height="100" src="./public/icons/logo.svg"></p>
   <h1 align="center">Expense.fyi</h1>
 </a>
@@ -64,7 +64,7 @@ Here's how you can contribute:
 
 ## Repo Activity
 
-![Alt](https://repobeats.axiom.co/api/embed/39144a92441882ef68fb1adf1c8166e1d6dfdb79.svg "Repobeats analytics image")
+![Alt](https://repobeats.axiom.co/api/embed/39144a92441882ef68fb1adf1c8166e1d6dfdb79.svg 'Repobeats analytics image')
 
 ## Author
 

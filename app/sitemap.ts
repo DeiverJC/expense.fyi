@@ -3,7 +3,7 @@ import { MetadataRoute } from 'next';
 export default function sitemap(): MetadataRoute.Sitemap {
 	return [
 		{
-			url: 'https://expense.fyi',
+			url: 'https://gastos.site',
 			lastModified: new Date(),
 		},
 		{

@@ -15,30 +15,30 @@ const GOOGLE_ANALYTICS_ID = process.env.GA4_ANALYTICS_ID;
 export const metadata = {
 	title,
 	description,
-	manifest: 'https://expense.fyi/manifest.json',
+	manifest: 'https://gastos.site/manifest.json',
 	twitter: {
 		card: 'summary_large_image',
 		title,
 		description,
 		creator: '@gokul_i',
-		images: ['https://expense.fyi/og.jpg'],
+		images: ['https://gastos.site/og.jpg'],
 	},
 	openGraph: {
 		title,
 		description,
-		url: 'https://expense.fyi',
+		url: 'https://gastos.site',
 		type: 'website',
-		images: ['https://expense.fyi/og.jpg'],
+		images: ['https://gastos.site/og.jpg'],
 	},
 	icons: {
-		icon: 'https://expense.fyi/icons/icon.svg',
-		shortcut: 'https://expense.fyi/favicon.ico',
-		apple: 'https://expense.fyi/icons/apple-icon.png',
+		icon: 'https://gastos.site/icons/icon.svg',
+		shortcut: 'https://gastos.site/favicon.ico',
+		apple: 'https://gastos.site/icons/apple-icon.png',
 	},
 	appleWebApp: {
 		title,
 		statusBarStyle: 'black',
-		startupImage: ['https://expense.fyi/icons/apple-icon.png'],
+		startupImage: ['https://gastos.site/icons/apple-icon.png'],
 	},
 };
 

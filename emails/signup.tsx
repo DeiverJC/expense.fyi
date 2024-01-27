@@ -18,7 +18,7 @@ import {
 import Footer from './footer';
 import Footnote from './footnote';
 
-const baseUrl = 'https://expense.fyi';
+const baseUrl = 'https://gastos.site';
 
 export const SignUpEmail = ({ action_link = '' }: { action_link?: string }) => {
 	return (
