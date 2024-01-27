@@ -1,4 +1,4 @@
-const title = 'Expense.fyi – Privacy Policy';
+const title = 'Gastos.site – Privacy Policy';
 const description = 'Effortlessly Track and Manage Expenses.';
 
 export const metadata = {

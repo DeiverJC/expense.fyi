@@ -1,4 +1,4 @@
-const title = 'Sign up for Expense.fyi';
+const title = 'Sign up for Gastos.site';
 const description = 'Effortlessly Track and Manage Expenses.';
 
 export const metadata = {

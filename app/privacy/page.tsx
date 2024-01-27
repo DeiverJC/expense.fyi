@@ -12,8 +12,8 @@ export default function Privacy() {
 			<div className="relative m-auto h-[40px] max-w-4xl pt-3">
 				<header className="absolute left-0 right-0 top-3 z-20 flex items-center justify-between">
 					<Link href="/" className="flex h-[40px] max-w-[180px] items-center p-3 text-2xl">
-						<Image src={logo} width={30} height={30} alt="expense.fyi logo" className="mr-2" />
-						<span className="font-black tracking-[-0.03em] text-gray-900">Expense.fyi</span>
+						<Image src={logo} width={30} height={30} alt="gastos.site logo" className="mr-2" />
+						<span className="font-black tracking-[-0.03em] text-gray-900">Gastos.site</span>
 					</Link>
 				</header>
 			</div>
@@ -42,7 +42,7 @@ export default function Privacy() {
 					Privacy Policy
 				</h1>
 				<p className="mt-2">
-					Author built the <b>Expense.fyi</b> web application as a <b>Freemium app</b>. This SERVICE is provided by at
+					Author built the <b>Gastos.site</b> web application as a <b>Freemium app</b>. This SERVICE is provided by at
 					no cost and is intended for use as is.
 				</p>
 				<p className="mt-2">
@@ -56,7 +56,7 @@ export default function Privacy() {
 				</p>
 				<p className="mt-2">
 					The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are
-					accessible at Expense.fyi unless otherwise defined in this Privacy Policy.
+					accessible at Gastos.site unless otherwise defined in this Privacy Policy.
 				</p>
 			</div>
 			<div className="relative m-4 mt-3 max-w-3xl pt-3 sm:m-4 lg:m-auto">
@@ -155,8 +155,8 @@ export default function Privacy() {
 				<h2 className="mb-3 mt-2 text-2xl font-extrabold leading-6">Contact Us</h2>
 				<p className="mt-2">
 					If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at{' '}
-					<a className="border-b-[1px] border-black pb-[1px]" href="mailto:hello@expense.fyi.">
-						hello@expense.fyi.
+					<a className="border-b-[1px] border-black pb-[1px]" href="mailto:hello@gastos.site.">
+						hello@gastos.site.
 					</a>
 				</p>
 			</div>

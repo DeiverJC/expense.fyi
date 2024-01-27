@@ -18,7 +18,7 @@ import Footer from './footer';
 import Footnote from './footnote';
 
 const baseUrl = 'https://gastos.site';
-const settingUrl = 'https://app.expense.fyi/settings';
+const settingUrl = 'https://app.gastos.site/settings';
 
 type PlanExpiredProps = { plan?: string };
 
@@ -42,7 +42,7 @@ export default function PlanExpiredEmail({ plan = 'Premium Plan' }: PlanExpiredP
 						</Text>
 						<Text className="text-black text-[14px] leading-[24px]">
 							No worries, all data still there. Renew <b>Premium Plan</b> to continue enjoying premium features on
-							Expense.fyi.
+							Gastos.site.
 						</Text>
 						<Link
 							className="bg-[#000000] inline-block p-2.5 px-3 rounded-md text-white text-[12px] font-medium no-underline text-center"

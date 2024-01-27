@@ -7,31 +7,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
 			lastModified: new Date(),
 		},
 		{
-			url: 'https://app.expense.fyi',
+			url: 'https://app.gastos.site',
 			lastModified: new Date(),
 		},
 		{
-			url: 'https://app.expense.fyi/signin',
+			url: 'https://app.gastos.site/signin',
 			lastModified: new Date(),
 		},
 		{
-			url: 'https://app.expense.fyi/siginup',
+			url: 'https://app.gastos.site/siginup',
 			lastModified: new Date(),
 		},
 		{
-			url: 'https://app.expense.fyi/expenses',
+			url: 'https://app.gastos.site/expenses',
 			lastModified: new Date(),
 		},
 		{
-			url: 'https://app.expense.fyi/income',
+			url: 'https://app.gastos.site/income',
 			lastModified: new Date(),
 		},
 		{
-			url: 'https://app.expense.fyi/investments',
+			url: 'https://app.gastos.site/investments',
 			lastModified: new Date(),
 		},
 		{
-			url: 'https://app.expense.fyi/settings',
+			url: 'https://app.gastos.site/settings',
 			lastModified: new Date(),
 		},
 	];

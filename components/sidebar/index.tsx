@@ -46,7 +46,7 @@ const dashboardLinks = [
 ];
 
 const settingsLinks = [
-	{ href: 'mailto:support@expense.fyi', name: 'Support', Icon: SupportIcon },
+	{ href: 'mailto:support@gastos.site', name: 'Support', Icon: SupportIcon },
 	{ href: '/settings', name: 'Settings', Icon: SettingsIcon },
 ];
 
@@ -101,7 +101,7 @@ export default function Sidebar() {
 								href="/"
 								className="mt-[3px] active:scale-95 rounded-lg p-1 transition-all focus:outline-none"
 							>
-								<Image className="block" src={SvgWhiteLogo} width={30} height={30} alt="Expense.fyi" />
+								<Image className="block" src={SvgWhiteLogo} width={30} height={30} alt="Gastos.site" />
 							</Link>
 							<Separator className="mb-2 mt-[8px] border-t border-gray-100 opacity-[0.2]" />
 							{dashboardLinks.map((link, index) => {
