@@ -21,6 +21,8 @@ const url = {
 	github: 'https://github.com/gokulkrishh/expense.fyi',
 };
 
+console.log(url);
+
 export const getApiUrl = (filterKey: string, apiPath: string, categories: string[] = [], isNotRange = false) => {
 	if (isNotRange) {
 		return `/api/${apiPath}`;
