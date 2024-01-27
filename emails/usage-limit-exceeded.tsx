@@ -18,7 +18,7 @@ import Footer from './footer';
 import Footnote from './footnote';
 
 const baseUrl = 'https://gastos.site';
-const settingUrl = 'https://app.expense.fyi/settings';
+const settingUrl = 'https://app.gastos.site/settings';
 
 type UsageProps = {
 	plan?: string;

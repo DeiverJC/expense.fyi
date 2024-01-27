@@ -15,8 +15,8 @@ export default function Home() {
 			<header className="relative m-auto h-[56px] max-w-4xl pt-3">
 				<div className="absolute left-0 right-0 top-3 z-20 flex items-center justify-between">
 					<Link href={'/'} className="flex max-w-[180px] items-center p-3 text-2xl">
-						<Image src={logo} width={30} height={30} alt="expense.fyi logo" className="mr-2" />
-						<span className="font-black tracking-[-0.03em] text-gray-900">Expense.fyi</span>
+						<Image src={logo} width={30} height={30} alt="gastos.site logo" className="mr-2" />
+						<span className="font-black tracking-[-0.03em] text-gray-900">Gastos.site</span>
 					</Link>
 					<Link
 						href={url.app.signin}
@@ -86,7 +86,7 @@ export default function Home() {
 						<span className="bg-gradient-to-r from-amber-400 to-orange-600 bg-clip-text text-transparent">
 							Why to use
 						</span>{' '}
-						Expense.fyi?
+						Gastos.site?
 					</h2>
 					<ul className="mt-6 list-decimal px-4 text-left leading-6 [counter-reset:section] sm:px-2">
 						<li className="before::h-2 mt-4 text-base tracking-tight sm:text-lg">
@@ -222,7 +222,7 @@ export default function Home() {
 								</div>
 								<a
 									className="mt-10 block w-full rounded-md bg-white py-2 text-center text-sm font-semibold text-black hover:bg-gray-200"
-									href="https://app.expense.fyi/signup"
+									href="https://app.gastos.site/signup"
 								>
 									Start for free
 								</a>
@@ -320,7 +320,7 @@ export default function Home() {
 								</div>
 								<a
 									className="mt-10 flex w-full justify-center rounded-md bg-white py-2 text-center text-sm font-semibold text-black hover:bg-gray-200"
-									href="https://app.expense.fyi/signup"
+									href="https://app.gastos.site/signup"
 								>
 									Get started
 								</a>
