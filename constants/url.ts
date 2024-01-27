@@ -1,7 +1,7 @@
 import { getRangeDateForFilter } from './date';
 import { views } from './table';
 
-const isProduction = process.env.NODE_ENV === 'production';
+const isProduction = true; //process.env.NODE_ENV === 'production';
 
 const domain = 'gastos.site';
 const local = 'localhost:3000';

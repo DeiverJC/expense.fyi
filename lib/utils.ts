@@ -7,7 +7,7 @@ export function cn(...inputs: ClassValue[]) {
 	return twMerge(clsx(inputs));
 }
 
-const isProduction = process.env.NODE_ENV === 'production';
+const isProduction = true; //process.env.NODE_ENV === 'production';
 
 export const getRedirectUrl = () => {
 	let url = process?.env?.NEXT_PUBLIC_SITE_URL ?? urls.app.overview;
