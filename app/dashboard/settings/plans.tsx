@@ -58,8 +58,6 @@ export default function Plans() {
 	const [loading, setLoading] = useState(false);
 	const { isPremium, isPremiumEnded } = user;
 
-	console.log(format(new Date(), dateFormat), user);
-
 	const onSuccess = async ({ order }: { order: any }, close: any) => {
 		const { attributes } = order.data;
 		try {

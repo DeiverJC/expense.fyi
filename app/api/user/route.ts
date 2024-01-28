@@ -19,7 +19,6 @@ const supabaseAdmin = createClient<Database>(
 
 export async function GET() {
 	return await checkAuth(async (user: any) => {
-		console.log(user);
 		try {
 			const data = await prisma.users.findUnique({
 				where: { id: user.id },
@@ -35,7 +34,6 @@ export async function GET() {
 					new_signup_email: true,
 				},
 			});
-			console.log(data);
 			const isPremiumPlan = data?.order_status === 'paid' && data?.plan_status === 'premium';
 			const isPremiumPlanEnded =
 				isPremiumPlan && data?.billing_start_date && new Date() > addYears(new Date(data.billing_start_date), 1);
