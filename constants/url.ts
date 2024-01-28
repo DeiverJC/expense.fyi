@@ -21,8 +21,6 @@ const url = {
 	github: 'https://github.com/gokulkrishh/gastos.site',
 };
 
-console.log(url);
-
 export const getApiUrl = (filterKey: string, apiPath: string, categories: string[] = [], isNotRange = false) => {
 	if (isNotRange) {
 		return `/api/${apiPath}`;
